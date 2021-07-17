@@ -1,1 +1,1 @@
-# Simple-CRUD-w-PHP-MYSQL
+Simple CRUD made with HTML,CSS,JAVASCRIPT,PHP and MYSQL
