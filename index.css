@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    margin:0 auto;
+    width: 80%;
+    padding:15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid black;
+}
+
+#delete-product-btn, #cancel{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px;
+    cursor:pointer;
+}
+
+.add{
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    background:rgb(22, 151, 236);
+}
+
+#product_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content{
+    margin-left:150px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content span{
+    padding:10px;
+}
+
+.form-content .spanStyle{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content span label{
+    margin-right:10px;
+}
+
+.items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:  wrap;
+}
+
+.cardItem{
+    width: 240px;
+    height:150px;
+    margin:5px;
+    border:1px solid rgb(145, 145, 145);
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 0px 1px #000000; 
+    box-shadow: 5px 5px 0px 1px #000000;
+}
+
+.size, .furniture, .book{
+    display: none;
+}
+
+.sizeOpen{
+    display: block;
+}
+
+.furniture span{
+    display: flex;
+}
+
+.warning{
+    color:red;
+}
+
+.footer{
+    padding:20px 0 ;
+    position:fixed;
+    right: 10%;
+    bottom:0;
+    width: 80%;
+    margin:0 auto;
+    border-top:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
